@@ -4,7 +4,7 @@ bitso-streams
 [![Build Status](https://travis-ci.org/joliveros/bitso-streams.svg?branch=master)](https://travis-ci.org/joliveros/bitso-streams)
 [![npm version](https://badge.fury.io/js/bitso-streams.svg)](http://badge.fury.io/js/bitso-streams)
 
-Stream bitso rest api data
+Stream bitso websocket api data
 
 
 Install
@@ -17,24 +17,15 @@ npm install --save-dev bitso-streams
 ```
 
 
-### AMD
+### Usage
 
 ```javascript
-define(function(require, exports, module) {
-  const bitsoStreams = require('bitso-streams');
-  const { OrderBookStream } = bitsoStreams;
+const bitsoStreams = require('bitso-streams');
+const { OrderBookStream } = bitsoStreams;
 
-  const orderBookStream = new OrderBookStream();
+const orderBookStream = new OrderBookStream();
 
-  orderBookStream.pipe(...);
-});
-```
-
-
-### script tag
-
-```html
-<script src="bitso-streams.js"></script>
+orderBookStream.pipe(...);
 ```
 
 License
