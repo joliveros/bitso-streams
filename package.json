@@ -1,6 +1,6 @@
 {
   "name": "bitso-ws",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Stream bitso rest api data",
   "main": "index.js",
   "scripts": {
@@ -41,6 +41,9 @@
     "eslint-config-airbnb": "^14.0.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^3.0.2",
-    "eslint-plugin-react": "^6.9.0"
+    "eslint-plugin-react": "^6.9.0",
+    "rimraf": "^2.5.4",
+    "webpack": "^1.9.6",
+    "webpack-dev-server": "^1.8.2"
   }
 }
