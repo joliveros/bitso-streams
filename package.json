@@ -1,6 +1,6 @@
 {
   "name": "bitso-streams",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Stream bitso websocket data",
   "main": "index.js",
   "scripts": {
